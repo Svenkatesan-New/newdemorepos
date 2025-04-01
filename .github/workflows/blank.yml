@@ -22,7 +22,7 @@ jobs:
           client-id: "a002c09f-553c-421b-a8af-86f435f69480"
           tenant-id: "1f4beacd-b7aa-49b2-aaa1-b8525cb257e0"
           subscription-id: "5dfb4d57-e8e3-4bb5-8cec-d6857c3f385b"
-          identity: true  # Use OIDC
+          # identity: true  # Use OIDC
 
       - name: Deploy to Azure
         run: |
