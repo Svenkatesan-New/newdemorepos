@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       id-token: write  # Request OIDC token
-      contents: read  # Allow reading repo content ch
+      contents: read  # Allow reading repo content 
 
     steps:
       - name: Checkout code
